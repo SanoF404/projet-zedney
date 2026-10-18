@@ -1,0 +1,240 @@
+{
+  "menu": {
+    "dashboard": {
+      "title": "Dashboard",
+      "subs": {}
+    },
+    "contacts": {
+      "title": "Contacts",
+      "subs": {
+        "enterprises": "Enterprises",
+        "interlocutors": "Interlocutors"
+      }
+    },
+    "buying": {
+      "title": "Buying",
+      "subs": {
+        "invoices": "Invoices",
+        "quotations": "Quotations",
+        "payments": "Payments"
+      }
+    },
+    "selling": {
+      "title": "Selling",
+      "subs": {
+        "invoices": "Invoices",
+        "quotations": "Quotations",
+        "payments": "Payments",
+        "taxWithholdings": "Tax Withholdings"
+      }
+    },
+    "contentManagement": {
+      "title": "Content Management",
+      "subs": {
+        "bankAccounts": "Bank Accounts",
+        "taxRates": "Tax Rates",
+        "refTypes": "Reference Types",
+        "refParams": "Reference Parameters",
+        "templates": "Templates"
+      }
+    },
+    "administrativeTools": {
+      "title": "Administrative Tools",
+      "subs": {
+        "users": "Users",
+        "roles": "Roles",
+        "permissions": "Permissions",
+        "logger": "Logger",
+        "system": "System"
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "subs": {
+        "account": "Account",
+        "system": "System"
+      }
+    }
+  },
+  "dashboardPage": {
+    "title": "Your business at a glance",
+    "subtitle": "A clear view of your latest invoices, payments, and everyday actions.",
+    "greeting": "Welcome, {{name}},",
+    "greetingFallback": "Welcome back,",
+    "welcome": "Here is what is happening in your business today.",
+    "createInvoice": "Create an invoice",
+    "invoicesCreated": "Invoices created",
+    "paymentsRecorded": "Payments recorded",
+    "allTime": "All time",
+    "shortcuts": "Quick actions",
+    "shortcutsHint": "Pick up where your business needs you.",
+    "newInvoice": "New invoice",
+    "newInvoiceHint": "Bill a customer for your work.",
+    "newQuotation": "New quotation",
+    "newQuotationHint": "Prepare an offer for a customer.",
+    "newClient": "Add a client",
+    "newClientHint": "Save a new business contact.",
+    "recentInvoices": "Recent invoices",
+    "recentPayments": "Recent payments",
+    "latestFive": "Your latest five records",
+    "viewAll": "View all",
+    "noInvoices": "No invoices yet. Create one to get started.",
+    "noPayments": "No payments yet. They will show here when recorded.",
+    "loadError": "Could not load this information. Please try again shortly."
+  },
+  "404": {
+    "go_back": "Go Back to Dashboard",
+    "note1": "Something is missing...",
+    "note2": "Sorry, we can't find this page. You'll find plenty of things to explore on the homepage."
+  },
+  "add_joints": "Add Attachments",
+  "answer": {
+    "yes": "Yes",
+    "no": "No"
+  },
+  "app_name": "Invoicing System",
+  "app_settings": {
+    "dark": "Dark",
+    "light": "Light",
+    "system": "System",
+    "theme": "Theme"
+  },
+  "coming_soon": {
+    "coming_soon": "Coming Soon",
+    "go_back": "Go Back to Dashboard",
+    "note1": "Something incredible is coming soon!",
+    "note2": "We are working hard to bring you new features. Stay tuned!"
+  },
+  "buyingQuotation": {
+    "title": "Purchase quotations",
+    "description": "Purchase quotation management is not available yet. You can manage your sales quotations from the selling section.",
+    "salesLink": "Open sales quotations"
+  },
+  "commands": {
+    "apply": "Apply",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "actions": "Actions",
+    "add": "Add",
+    "accept": "Accept",
+    "cancel": "Cancel",
+    "copy": "Copy",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "demote": "Demote",
+    "draft": "Draft",
+    "display": "Display",
+    "download": "Download",
+    "duplicate": "Duplicate",
+    "edit": "Edit",
+    "hide": "Hide",
+    "initialize": "Initialize",
+    "to_invoice": "To Invoice",
+    "inspect": "Inspect",
+    "modify": "Modify",
+    "new": "New",
+    "reject": "Reject",
+    "resend": "Resend",
+    "save": "Save",
+    "search_by": "Search By",
+    "search_sort_by": "Search/Sort By",
+    "send": "Send",
+    "shrink": "Shrink",
+    "print": "Print",
+    "promote": "Promote",
+    "reset": "Reset",
+    "validate": "Validate",
+    "unassociate": "Unassociate"
+  },
+  "elements": "Elements",
+  "files": {
+    "uploading": "Uploading",
+    "uploaded": "Uploaded",
+    "singular": "File",
+    "plural": "Files",
+    "drag_files_sentance": "Drag&drop files here, or click to select files",
+    "multiple_files_max_size_sentence": "You can upload {{count}} files (up to {{size}} each)",
+    "single_file_max_size_sentence": "You can upload a file with size up to {{size}}",
+    "no_selected_file": "No Selected Files",
+    "drop_image": "Drop the image",
+    "select_image": "Click to Select",
+    "rejected_empty_file_warning": "File {{name}} is empty and has been rejected.",
+    "max_one_per_upload_warning": "Cannot upload more than 1 file at a time",
+    "max_file_warning": "Cannot upload more than {{count}} files",
+    "file_rejected": "File {{name}} was rejected",
+    "failed_to_upload": "Failed to upload {{target}}"
+  },
+  "languages": {
+    "word": "Language",
+    "en": "English 🇬🇧",
+    "fr": "French 🇫🇷"
+  },
+  "order": {
+    "asc": "Ascending",
+    "desc": "Descending"
+  },
+  "pagination": {
+    "enumerate": "Page {{page}} of {{totalPageCount}}",
+    "next": "Next",
+    "previous": "Previous",
+    "rows_per": "Rows per page",
+    "selected_rows": "{{count}} of {{size}} row(s) selected."
+  },
+  "phone-input": {
+    "not_found": "No country found",
+    "search": "Search country"
+  },
+  "pick_date": "Pick a Date",
+  "start_date": "Start Date",
+  "end_date": "End Date",
+  "administrative-tools": {
+    "logger": {},
+    "user_management": {
+      "users": "Users",
+      "roles": "Roles",
+      "permissions": "Permissions"
+    }
+  },
+  "settings": {
+    "account": {
+      "singular": "Account",
+      "plural": "Accounts",
+      "my_profile": "My Profile",
+      "my_cabinet": "My Cabinet",
+      "bank_accounts": "Bank Accounts"
+    },
+    "system": {
+      "singular": "System",
+      "plural": "Systems",
+      "activity": "Activity",
+      "sequence": "Numerical Sequence",
+      "payment_condition": "Payment Condition",
+      "tax_withholding": "Tax Withholding",
+      "tax": "Tax Synthesis",
+      "default_condition": "Default Condition"
+    }
+  },
+  "table": {
+    "delete_prompt": "Are you sure you want to delete",
+    "filter_placeholder": "Filter the {{entity}} ...",
+    "no_results": "No results",
+    "visible_cols": "Visible Columns",
+    "loading": "Loading Data, Please wait..."
+  },
+  "words": {
+    "for": "For",
+    "main_m": "Main",
+    "main_f": "Main",
+    "or": "or"
+  },
+  "datatable": {
+    "paginationPhrase": "Showing Page {{page}} of {{total}}",
+    "search": "Search {{entity}}...",
+    "noResults": "No results",
+    "visibleColumns": "Visible Columns",
+    "order": {
+      "asc": "Ascending",
+      "desc": "Descending"
+    }
+  }
+}

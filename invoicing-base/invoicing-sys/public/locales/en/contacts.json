@@ -1,0 +1,139 @@
+{
+  "common": {},
+  "enterprise": {
+    "single": "Enterprise",
+    "plural": "Enterprises",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "website": "Website",
+      "taxId": "Tax ID Number",
+      "notes": "Notes",
+      "particular": {
+        "noun": "Particular",
+        "positive": "Particular",
+        "negative": "Enterprise"
+      },
+      "activity": "Activity",
+      "currency": "Currency",
+      "paymentConditions": "Payment Conditions",
+      "deliveryAddress": "Delivery Address",
+      "invoicingAddress": "Invoicing Address",
+      "placeholders": {
+        "name": "Enter the enterprise name",
+        "email": "Enter the enterprise email",
+        "phone": "Enter the enterprise phone",
+        "website": "Enter the enterprise website",
+        "taxId": "Enter the enterprise tax ID number",
+        "notes": "Enter notes about the enterprise",
+        "activity": "Enter the enterprise activity",
+        "currency": "Enter the enterprise currency",
+        "paymentConditions": "Enter the enterprise payment conditions"
+      },
+      "descriptions": {
+        "name": "The name of the enterprise.",
+        "email": "The email address of the enterprise.",
+        "phone": "The phone number of the enterprise.",
+        "website": "The website of the enterprise.",
+        "taxId": "The tax ID number of the enterprise.",
+        "notes": "Additional notes about the enterprise.",
+        "particular": "Indicates whether the enterprise is a particular or not.",
+        "activity": "The activity of the enterprise.",
+        "currency": "The currency used by the enterprise.",
+        "paymentConditions": "The payment conditions of the enterprise.",
+        "deliveryAddress": "The delivery address of the enterprise.",
+        "invoicingAddress": "The invoicing address of the enterprise."
+      }
+    },
+    "table": {
+      "columns": {
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "website": "Website",
+        "taxId": "Tax ID Number",
+        "particular": {
+          "noun": "Particular",
+          "positive": "Particular",
+          "negative": "Enterprise"
+        },
+        "createdAt": "Created At",
+        "updatedAt": "Updated At"
+      },
+      "emptyCells": {
+        "phone": "No phone",
+        "website": "No website",
+        "taxId": "No tax ID"
+      }
+    }
+  },
+  "address": {
+    "form": {
+      "address": "Address",
+      "address2": "Address Line 2",
+      "zipCode": "Postal Code",
+      "region": "Region",
+      "country": "Country",
+      "placeholders": {
+        "address": "Enter the address",
+        "address2": "Enter the address line 2",
+        "zipCode": "Enter the postal code",
+        "region": "Enter the region",
+        "country": "Select the country"
+      },
+      "descriptions": {
+        "address": "The address.",
+        "address2": "Additional address information.",
+        "zipCode": "The postal code.",
+        "region": "The region.",
+        "country": "The country."
+      }
+    }
+  },
+  "interlocutor": {
+    "singular": "Interlocutor",
+    "plural": "Interlocutors",
+    "form": {
+      "socialTitle": "Social Title",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "position": "Position",
+      "placeholders": {
+        "socialTitle": "Select the social title",
+        "firstName": "Enter the first name",
+        "lastName": "Enter the last name",
+        "email": "Enter the email",
+        "phone": "Enter the phone number",
+        "position": "Enter the position"
+      },
+      "descriptions": {
+        "socialTitle": "The social title of the interlocutor.",
+        "firstName": "The first name of the interlocutor.",
+        "lastName": "The last name of the interlocutor.",
+        "email": "The email address of the interlocutor.",
+        "phone": "The phone number of the interlocutor.",
+        "position": "The position of the interlocutor within the enterprise."
+      }
+    },
+    "table": {
+      "columns": {
+        "socialTitle": "Social Title",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "phone": "Phone",
+        "createdAt": "Created At",
+        "updatedAt": "Updated At",
+        "position": "Position"
+      },
+      "emptyCells": {
+        "email": "No email",
+        "phone": "No phone",
+        "position": "No position"
+      }
+    }
+  }
+}

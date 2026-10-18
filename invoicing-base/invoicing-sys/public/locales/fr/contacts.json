@@ -1,0 +1,139 @@
+{
+  "common": {},
+  "enterprise": {
+    "single": "Entreprise",
+    "plural": "Entreprises",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "website": "Site Web",
+      "taxId": "Numéro d'identification fiscale",
+      "notes": "Notes",
+      "particular": {
+        "noun": "Particulier",
+        "positive": "Particulier",
+        "negative": "Entreprise"
+      },
+      "activity": "Activité",
+      "currency": "Devise",
+      "paymentConditions": "Conditions de paiement",
+      "deliveryAddress": "Adresse de livraison",
+      "invoicingAddress": "Adresse de facturation",
+      "placeholders": {
+        "name": "Entrez le nom de l'entreprise",
+        "email": "Entrez l'email de l'entreprise",
+        "phone": "Entrez le téléphone de l'entreprise",
+        "website": "Entrez le site web de l'entreprise",
+        "taxId": "Entrez le numéro d'identification fiscale de l'entreprise",
+        "notes": "Entrez des notes sur l'entreprise",
+        "activity": "Entrez l'activité de l'entreprise",
+        "currency": "Entrez la devise de l'entreprise",
+        "paymentConditions": "Entrez les conditions de paiement de l'entreprise"
+      },
+      "descriptions": {
+        "name": "Le nom de l'entreprise.",
+        "email": "L'adresse email de l'entreprise.",
+        "phone": "Le numéro de téléphone de l'entreprise.",
+        "website": "Le site web de l'entreprise.",
+        "taxId": "Le numéro d'identification fiscale de l'entreprise.",
+        "notes": "Des notes supplémentaires sur l'entreprise.",
+        "particular": "Indique si l'entreprise est un particulier ou non.",
+        "activity": "L'activité de l'entreprise.",
+        "currency": "La devise utilisée par l'entreprise.",
+        "paymentConditions": "Les conditions de paiement de l'entreprise.",
+        "deliveryAddress": "L'adresse de livraison de l'entreprise.",
+        "invoicingAddress": "L'adresse de facturation de l'entreprise."
+      }
+    },
+    "table": {
+      "columns": {
+        "name": "Nom",
+        "email": "Email",
+        "phone": "Téléphone",
+        "website": "Site Web",
+        "taxId": "Numéro d'identification fiscale",
+        "particular": {
+          "noun": "Particulier",
+          "positive": "Particulier",
+          "negative": "Entreprise"
+        },
+        "createdAt": "Créé le",
+        "updatedAt": "Mis à jour le"
+      },
+      "emptyCells": {
+        "phone": "Aucun téléphone",
+        "website": "Aucun site web",
+        "taxId": "Aucun numéro d'identification fiscale"
+      }
+    }
+  },
+  "address": {
+    "form": {
+      "address": "Adresse",
+      "address2": "Adresse ligne 2",
+      "zipCode": "Code postal",
+      "region": "Région",
+      "country": "Pays",
+      "placeholders": {
+        "address": "Entrez l'adresse",
+        "address2": "Entrez des informations supplémentaires sur l'adresse",
+        "zipCode": "Entrez le code postal",
+        "region": "Entrez la région",
+        "country": "Sélectionnez le pays"
+      },
+      "descriptions": {
+        "address": "L'adresse.",
+        "address2": "Des informations supplémentaires sur l'adresse.",
+        "zipCode": "Le code postal.",
+        "region": "La région.",
+        "country": "Le pays."
+      }
+    }
+  },
+  "interlocutor": {
+    "singular": "Interlocuteur",
+    "plural": "Interlocuteurs",
+    "form": {
+      "socialTitle": "Civilité",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "position": "Poste",
+      "placeholders": {
+        "socialTitle": "Sélectionnez la civilité",
+        "firstName": "Entrez le prénom de l'interlocuteur",
+        "lastName": "Entrez le nom de l'interlocuteur",
+        "email": "Entrez l'email de l'interlocuteur",
+        "phone": "Entrez le téléphone de l'interlocuteur",
+        "position": "Entrez le poste de l'interlocuteur"
+      },
+      "descriptions": {
+        "socialTitle": "La civilité de l'interlocuteur.",
+        "firstName": "Le prénom de l'interlocuteur.",
+        "lastName": "Le nom de l'interlocuteur.",
+        "email": "L'adresse email de l'interlocuteur.",
+        "phone": "Le numéro de téléphone de l'interlocuteur.",
+        "position": "Le poste de l'interlocuteur."
+      }
+    },
+    "table": {
+      "columns": {
+        "socialTitle": "Civilité",
+        "firstName": "Prénom",
+        "lastName": "Nom",
+        "email": "Email",
+        "phone": "Téléphone",
+        "createdAt": "Créé le",
+        "updatedAt": "Mis à jour le",
+        "position": "Poste"
+      },
+      "emptyCells": {
+        "email": "Aucun email",
+        "phone": "Aucun téléphone",
+        "position": "Aucun poste"
+      }
+    }
+  }
+}

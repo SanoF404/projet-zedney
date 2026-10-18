@@ -1,0 +1,17 @@
+import AgentConfig from './agent.config';
+import AppConfig from './app.config';
+import DatabaseConfig from './database.config';
+import DocConfig from './doc.config';
+import i18nConfig from './i18n.config';
+import AppPreferencesConfig from './app-preference.config';
+import S3StorageConfig from './s3-storage.config';
+
+export default [
+  AgentConfig,
+  AppConfig,
+  AppPreferencesConfig,
+  DatabaseConfig,
+  DocConfig,
+  i18nConfig,
+  S3StorageConfig,
+];

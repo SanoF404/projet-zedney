@@ -1,0 +1,16 @@
+﻿.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+**/node_modules/
+**/.next/
+**/dist/
+**/build/
+**/coverage/
+**/.runtime-user/
+**/.idea/
+**/.vs/
+**/*.tsbuildinfo
+**/next-env.d.ts

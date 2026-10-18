@@ -1,0 +1,94 @@
+{
+  "common": {
+    "financialResume": "Résumé financier"
+  },
+  "quotation": {
+    "form": {
+      "date": "Date",
+      "dueDate": "Échéance",
+      "object": "Objet",
+      "enterprise": "Entreprise",
+      "interlocutor": "Interlocuteur",
+      "generalConditions": "Conditions générales",
+      "currency": "Devise",
+      "bankAccount": "Compte bancaire",
+      "placeholders": {
+        "date": "Sélectionnez une date",
+        "dueDate": "Sélectionnez une date d'échéance",
+        "object": "Entrez un objet",
+        "enterprise": "Sélectionnez une entreprise",
+        "interlocutor": "Sélectionnez un interlocuteur",
+        "currency": "Sélectionnez une devise",
+        "bankAccount": "Sélectionnez un compte bancaire"
+      },
+      "descriptions": {
+        "date": "Sélectionnez la date du devis.",
+        "dueDate": "Sélectionnez la date d'échéance pour ce devis.",
+        "object": "Entrez l'objet du devis. Il s'agit d'une brève description de ce à quoi le devis se rapporte.",
+        "enterprise": "Sélectionnez l'entreprise pour laquelle ce devis est créé.",
+        "interlocutor": "Sélectionnez l'interlocuteur pour ce devis. Les options disponibles dépendront de l'entreprise que vous avez sélectionnée.",
+        "generalConditions": "Entrez les conditions générales pour ce devis. Vous pouvez utiliser l'éditeur pour formater le texte si nécessaire.",
+        "currency": "Sélectionnez la devise pour ce devis.",
+        "bankAccount": "Sélectionnez le compte bancaire à utiliser pour ce devis."
+      }
+    },
+    "table": {
+      "columns": {
+        "id": "ID",
+        "object": "Objet",
+        "date": "Date",
+        "status": "Statut",
+        "dueDate": "Échéance",
+        "enterprise": "Entreprise",
+        "interlocutor": "Interlocuteur",
+        "createdAt": "Créé le",
+        "updatedAt": "Mis à jour le"
+      }
+    },
+    "dialogs": {
+      "delete": {
+        "title": "Êtes-vous sûr de vouloir supprimer ce devis",
+        "description": "Cette action est irréversible. Cela supprimera définitivement le devis de notre base de données.",
+        "confirm": "Oui, supprimez-le",
+        "cancel": "Non, conservez-le"
+      }
+    }
+  },
+  "invoice": {},
+  "article": {
+    "buttons": {
+      "addArticle": "Ajouter un article",
+      "deleteArticle": "Supprimer l'article"
+    },
+    "form": {
+      "title": "Titre",
+      "description": "Description",
+      "quantity": "Quantité",
+      "unitPrice": "Prix unitaire",
+      "priceExcludingTax": "Prix HT",
+      "priceIncludingTax": "Prix TTC",
+      "totalTax": "Total taxe",
+      "totalDiscount": "Total remise",
+      "taxRates": "Taux de taxe",
+      "discountType": {
+        "label": "Type de remise",
+        "options": {
+          "rate": "Pourcentage",
+          "fixed": "Montant fixe"
+        }
+      },
+      "discountValue": "Valeur de la remise",
+      "totalPrice": "Prix total",
+      "placeholders": {
+        "title": "Entrez le titre de l'article",
+        "description": "Entrez la description de l'article",
+        "quantity": "Entrez la quantité",
+        "unitPrice": "Entrez le prix unitaire",
+        "discountType": "Sélectionnez le type de remise",
+        "discountValue": "Entrez la valeur de la remise",
+        "taxRates": "Sélectionnez les taux de taxe applicables"
+      }
+    }
+  },
+  "payment": {}
+}

@@ -1,0 +1,55 @@
+{
+  "account": {
+    "singular": "Compte",
+    "description": "Gérez votre profil, votre cabinet et vos comptes bancaires.",
+    "profile": "Profil",
+    "cabinet": "Cabinet",
+    "banks": "Comptes bancaires"
+  },
+  "profile": {
+    "title": "Mon profil",
+    "loading": "Chargement du profil…",
+    "load_error": "Impossible de charger votre profil.",
+    "first_name": "Prénom",
+    "last_name": "Nom",
+    "username": "Nom d’utilisateur",
+    "email": "Adresse e-mail",
+    "phone": "Téléphone",
+    "bio": "À propos de moi",
+    "save": "Enregistrer les modifications",
+    "saved": "Votre profil a été mis à jour.",
+    "save_error": "Impossible d’enregistrer votre profil."
+  },
+  "system": {
+    "singular": "Système",
+    "description": "Configurez les paramètres utilisés dans vos documents et vos opérations."
+  },
+  "other": {
+    "title": "Autres paramètres",
+    "description": "Personnalisez l’apparence de l’application.",
+    "appearance_description": "Choisissez un thème clair, sombre ou synchronisé avec votre système."
+  },
+  "default_condition": {
+    "singular": "Conditions par défaut",
+    "card_description": "Définissez le texte automatiquement proposé sur les devis et les factures.",
+    "section": { "selling": "Ventes", "buying": "Achats" },
+    "elements": { "quotation": "Devis", "invoice": "Facture" },
+    "action_edit_success": "Les conditions par défaut ont été enregistrées.",
+    "action_edit_failure": "Impossible d’enregistrer les conditions par défaut."
+  },
+  "cabinet": {
+    "general_information": "Informations générales",
+    "financial_information": "Informations comptables",
+    "assets": "Logo et signature",
+    "attributes": {
+      "name": "Nom du cabinet",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "tax_number": "Numéro fiscal",
+      "activity": "Activité",
+      "currency": "Devise",
+      "logo": "Logo du cabinet",
+      "signature": "Signature du cabinet"
+    }
+  }
+}

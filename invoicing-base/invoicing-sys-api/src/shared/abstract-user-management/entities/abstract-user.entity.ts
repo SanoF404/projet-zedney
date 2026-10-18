@@ -1,0 +1,59 @@
+import { EntityHelper } from 'src/shared/database/interfaces/database.entity.interface';
+import {
+  Column,
+  Entity,
+  JoinColumn,
+  ManyToOne,
+  OneToMany,
+  PrimaryGeneratedColumn,
+  TableInheritance,
+} from 'typeorm';
+import { RoleEntity } from './role.entity';
+import { LogEntity } from 'src/shared/logger/entities/log.entity';
+
+@Entity('users')
+@TableInheritance({ column: { type: 'varchar', name: 'type' } })
+export abstract class AbstractUserEntity extends EntityHelper {
+  @PrimaryGeneratedColumn('uuid')
+  id: string;
+
+  @Column({ nullable: true })
+  firstName?: string;
+
+  @Column({ nullable: true })
+  lastName?: string;
+
+  @Column({ type: 'datetime', nullable: true })
+  dateOfBirth?: Date;
+
+  @Column({ default: false })
+  isActive: boolean;
+
+  @Column({ nullable: true })
+  password?: string;
+
+  @Column({ unique: true })
+  username: string;
+
+  @Column({ unique: true })
+  email: string;
+
+  @Column({ type: 'timestamp', nullable: true })
+  emailVerified?: Date;
+
+  @Column({ nullable: true })
+  image?: string;
+
+  @ManyToOne(() => RoleEntity, (role) => role.users, {
+    onDelete: 'CASCADE',
+    eager: true,
+  })
+  @JoinColumn({ name: 'roleId' })
+  role: RoleEntity;
+
+  @Column({})
+  roleId: string;
+
+  @OneToMany(() => LogEntity, (log) => log.user)
+  logs?: LogEntity[];
+}
